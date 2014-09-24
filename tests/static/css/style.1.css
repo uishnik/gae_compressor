@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.a{
+    margin: 10px;
+    background: url('/static/img/delete1.png') no-repeat;
+}
+.b{
+    margin: 10px;
+    background: url("/static/img/delete.png") no-repeat;
+}

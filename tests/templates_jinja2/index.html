@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        {% compress css %}
+            <link href="/static/css/style.1.css" rel="stylesheet" />
+            <link href="/static/css/style.2.css" rel="stylesheet" />
+        {% endcompress %}
+
+        {% compress js %}
+            <script src="/static/js/jquery-1.7.2.js"></script>
+            <script src="/static/js/main.js"></script>
+        {% endcompress %}
+    </head>
+    <body>
+        <p class="class-1">Test</p>
+    </body>
+</html>
