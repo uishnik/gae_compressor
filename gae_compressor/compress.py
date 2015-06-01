@@ -118,6 +118,7 @@ class Compressor(object):
 
 if __name__ == '__main__':
     if settings.COMPRESS_ENABLED:
+        print 'Compression started'
         Compressor().compress()
         print 'Compression completed'
     else:
